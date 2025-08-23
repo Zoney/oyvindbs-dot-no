@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevOps – Mer enn et buzzword? En utviklers beretning. Del 1 | Øyvind Brekkhus Sandåker</title>
+    <meta name="description" content="DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines. En utviklers perspektiv på DevOps-evolusjonen." />
+    <meta name="keywords" content="DevOps, CI/CD, software development, automation, deployment, operations, development, Norway, Norwegian, Øyvind Brekkhus Sandåker" />
+    <meta name="author" content="Øyvind Brekkhus Sandåker" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Norwegian" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://oyvindbs.no/articles/devops-buzzword-part1.html" />
+    <meta property="og:title" content="DevOps – Mer enn et buzzword? En utviklers beretning. Del 1" />
+    <meta property="og:description" content="DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines." />
+    <meta property="og:site_name" content="Øyvind Brekkhus Sandåker" />
+    <meta property="og:locale" content="nb_NO" />
+    <meta property="article:published_time" content="2021-02-14T00:00:00+01:00" />
+    <meta property="article:author" content="Øyvind Brekkhus Sandåker" />
+    <meta property="article:section" content="Technology" />
+    <meta property="article:tag" content="DevOps, CI/CD, Software Development, Automation" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@zoney" />
+    <meta name="twitter:creator" content="@zoney" />
+    <meta name="twitter:title" content="DevOps – Mer enn et buzzword? En utviklers beretning. Del 1" />
+    <meta name="twitter:description" content="DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines." />
+    
+    <!-- LinkedIn -->
+    <meta property="og:image" content="https://oyvindbs.no/og-image-devops.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DevOps - Mer enn et buzzword? En utviklers beretning" />
+    
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <link rel="canonical" href="https://oyvindbs.no/articles/devops-buzzword-part1.html" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "DevOps – Mer enn et buzzword? En utviklers beretning. Del 1",
+      "description": "DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines.",
+      "image": "https://oyvindbs.no/og-image-devops.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Øyvind Brekkhus Sandåker",
+        "url": "https://oyvindbs.no"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Øyvind Brekkhus Sandåker",
+        "url": "https://oyvindbs.no"
+      },
+      "datePublished": "2021-02-14T00:00:00+01:00",
+      "dateModified": "2021-02-14T00:00:00+01:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://oyvindbs.no/articles/devops-buzzword-part1.html"
+      },
+      "articleSection": "Technology",
+      "keywords": ["DevOps", "CI/CD", "Software Development", "Automation", "Deployment", "Operations"],
+      "inLanguage": "nb-NO"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">home</a> / 
+      <span aria-current="page">devops buzzword part 1</span>
+    </nav>
+    
+    <div class="article-container">
+      <div class="article-layout">
+        <div class="article-sidebar">
+          <div class="article-sidebar-name">Øyvind</div>
+          <div class="article-sidebar-links">
+            <a href="../index.html">Home</a>
+            <a href="https://x.com/zoney" rel="me">@zoney on X</a>
+            <a href="https://www.linkedin.com/in/øyvind-brekkhus-sandåker-343a0a9/" rel="me">LinkedIn</a>
+          </div>
+          <div class="article-sidebar-info">
+            <p style="margin-top: 1.5em;"><i>I'm a software engineer and AI addict.</i></p>
+            <p style="margin-top: 1.5em;">-Øyvind Brekkhus Sandåker</p>
+          </div>
+        </div>
+        
+        <div class="article-content">
+          <div class="article-header">
+            <h1 class="article-title">DevOps – mer enn et buzzword? En utviklers beretning. Del 1</h1>
+            <p class="article-meta">14 Feb 2021</p>
+            <div class="article-tags">
+              <span class="tag">DevOps</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Software Development</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Deployment</span>
+            </div>
+          </div>
+
+          <div class="article-body">
+            <div class="article-summary">
+              <p><strong>Oppsummering:</strong> DevOps er et ord som i den senere tid har poppet opp i IT-verdenen. Det er lett å miste tråden når man snakker om DevOps, for det er brukt i forferdelig mange sammenhenger. Man hører DevOps som en stilling, mange søker etter "DevOps Engineer", det er et produkt hos noen selskaper (bl.a Azure DevOps), noen tenker på det som en kultur man har i selskapet, mens blant annet wikipedia kategoriserer det som et sett med utviklingsmetoder.</p>
+            </div>
+            
+            <nav class="table-of-contents" aria-label="Table of Contents">
+              <h3>Innhold</h3>
+              <ul>
+                <li><a href="#i-hine-hane-dager">I hine håne dager</a></li>
+                <li><a href="#glidende-overgang">Glidende overgang</a></li>
+                <li><a href="#bare-dryss-litt-devops">Bare dryss litt DevOps over det</a></li>
+                <li><a href="#men-det-er-jo-ikke-sa-enkelt">Men det er jo ikke så enkelt</a></li>
+              </ul>
+            </nav>
+            
+            <p>DevOps er et ord som i den senere tid har poppet opp i IT-verdenen. Det er lett å miste tråden når man snakker om DevOps, for det er brukt i forferdelig mange sammenhenger. Man hører DevOps som en stilling, mange søker etter "DevOps Engineer", det er et produkt hos noen selskaper (bl.a Azure DevOps), noen tenker på det som en kultur man har i selskapet, mens blant annet wikipedia kategoriserer det som et sett med utviklingsmetoder.</p>
+            
+            <h2 id="i-hine-hane-dager">I hine håne dager</h2>
+            <p>Nå skal jeg gå veldig langt tilbake i tid, i en tid hvor selskaper hadde egne avdelinger som hadde ansvar for å drifte noe man kalte servere, disse stod i egne rom som man kalte server-rom. Disse avdelingene kalles på engelsk "Operations", på norsk kalles det ofte "Drift".</p>
+            
+            <p>Det er kanskje ikke så galt, at man ikke har slike avdelinger lenger. Men med alle sky-leverandører man har, bare ett klikk unna, er det ikke det samme behovet som tidligere for å ha en "Drifts-avdeling".</p>
+            
+            <p>Enda lever vi i en verden hvor det er mennesker som skriver kommandoer til datamaskiner. Disse kalles på engelsk "Developers" og på norsk kaller vi de utviklere. I gamle dager var det ofte slik at utviklings-avdelingene lagde programvare. Når den var ferdig, da ga man den til "Drift" for at de skulle gjøre noe greier med den, og ble så satt i "Test" og noen gikk inn og testet at ting funket. Om - men som oftest når - alt var som forventet, kom programvaren i "Produksjon". Og det var da brukerne kunne teste ut den helt nye versjonen man hadde jobbet så lenge med å få ferdig. Og «Produksjon», det var det bare (BARE) "Drift" som kunne røre.</p>
+            
+            <p>Å ha slike skott som det blir med å ha avdelinger for Drift og Utvikling, det gjør ikke underverker for produktiviteten til et selskap. Ei heller forholdet mellom avdelinger.</p>
+            
+            <h2 id="glidende-overgang">Glidende overgang</h2>
+            <p>Når smidig-gjengen, med Scrum, Kanban, Agile og Lean i spissen, startet å gjøre sitt inntog i organisasjoner rundtom i verden, da startet vel folk å forstå at man trengte organisasjoner som ikke gjenspeilet gamle metodikker for prosjektstyring, som Fossefall. Plutselig skulle avdelingene "Drift" og "Utvikling" hete "Drift og Utvikling". Men man hadde ofte det samme ansvaret, Drift hadde ansvar for at ting kjørte i produksjon, og Utvikling hadde ansvar for at man lagde programvare. Forskjellen nå var at man brukte smidig-metodikker når man utviklet programvare. Og man startet å sende oppdaterte versjoner av applikasjonene sine til produksjon oftere, typ 6 uker.</p>
+            
+            <h2 id="bare-dryss-litt-devops">Bare dryss litt DevOps over det</h2>
+            <p>Jeg husker første gang jeg hørte om at det var noen som deployet flere ganger om dagen, jeg ble sjokkert. Hvordan skulle liksom kunder akseptere det? Ting kunne gå ned, databasen måtte kanskje gjenopprettes om noe gikk galt, helt uaktuelt at dette kunne funke i praksis! Men jeg visste at det funket, for jeg var kunden til denne tjenesten – til Flickr. Denne, den gang, flotte bildedelings- og backup-tjenesten. Ikke bare deployet de flere ganger om dagen, de hadde også noe greier man kalte for "Feature flags". Som gjør at man kan snik-innføre nye ting eller endringer på enkelte brukere. Alle brukere som har et brukernavn som starter på "Z" får denne versjonen av web-siden, mens resten får den gamle vanlige, men all koden kjørte fra samme kode-base.</p>
+            
+            <p>For å få til å deploye hele tiden hadde flickr implementert en helautomatisk build-, test- og deployment-pipeline. Noen kaller dette CI/CD-pipeline (Continuous Integration / Continuous Delivery / Continuous Deployment), andre kaller dette en "DevOps"-pipeline.</p>
+            
+            <p>Sagt på en annen måte er dette automatiserte steg som tar kildekoden fra en plass, kjører den gjennom forskjellige type tester, alt fra kode-syntax, skrivefeil, og helt opp til store integrasjonstester mot eksterne systemer. Om alle disse testene passerer, da blir det automatisk sendt til produksjon.</p>
+            
+            <p>Når flere forstod hva selskaper som flickr gjorde, at de hadde automatisert alt som skjer etter man skriver kode, da startet ballen å rulle. Tenk at man kan automatisere noe man tidligere måtte ha folk til å gjøre – profit!</p>
+            
+            <h2 id="men-det-er-jo-ikke-sa-enkelt">Men det er jo ikke så enkelt</h2>
+            <p>Å lage en ny tjeneste og bake inn automatisert test, deployment, monitorering, varsling osv, gjør ikke at det tar så mye lenger tid å lage tjenesten. Men å legge dette til for en eksisterende applikasjon, og passe inn i et eksisterende miljø, det er litt av en oppgave. Man blir møtt av teknologi og tjenester som ble lagd og satt opp av folk – og de er de verste (folk altså)! Folk kan gjøre feil, som f.eks skrivefeil, man kan finne på å kalle en tjeneste for "QWERTYASDFG", når den soleklart burde hete "nor-krs-app-01". Ikke lett å lage verktøy som skal automatiseres i en slik verden. Men vi prøvde. Og det ble litt så som så i begynnelsen.</p>
+            
+            <p>Enda forvirret? La oss se om vi får samlet noen tråder i del 2?</p>
+            
+            <div class="article-footer">
+              <div class="related-topics">
+                <h3>Relaterte emner</h3>
+                <ul>
+                  <li><a href="https://en.wikipedia.org/wiki/DevOps" target="_blank" rel="noopener">DevOps på Wikipedia</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/CI/CD" target="_blank" rel="noopener">CI/CD på Wikipedia</a></li>
+                  <li><a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank" rel="noopener">Agile Software Development</a></li>
+                </ul>
+              </div>
+              
+              <div class="article-navigation">
+                <p><strong>Del av serien:</strong> DevOps – mer enn et buzzword?</p>
+                <p>← <a href="../index.html">Tilbake til forsiden</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
