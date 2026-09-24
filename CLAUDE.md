@@ -42,7 +42,8 @@ Vercel's Git integration deploys the repo as-is. A push to `main` is the product
 - Norwegian first (`lang="nb"`). English content keeps `lang="en"`. Day of Week articles are linked in both languages (NO and EN).
 - Credit correctly: Techpoint, Arendalsuka and Egderøre happened while he worked at Egde (2020–2026). Homborsund AI is a non-profit he runs on the side. Day of Week is the current job.
 - New copy avoids em-dash chains. Commas, colons and full stops instead.
-- No e-mail address on the site (it only attracts spam). Contact goes through LinkedIn, X and GitHub.
+- Contact: oyvind@zoney.no in the contact section, plus LinkedIn, X and GitHub.
+- The footer has only the copy line; no "made with" line.
 - The status line under the hero shows what he does now and on the side. Egde is not listed there; it stays in the career list and the stage credits.
 - A speaker version with a talks page exists on the branch `redesign/foredrag`, parked until the speaker profile is ready.
 - Adding or removing a public page or article: update `skriving/index.html`, `sitemap.xml` and `llms.txt`.

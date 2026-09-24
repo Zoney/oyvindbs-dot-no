@@ -221,11 +221,6 @@ a:hover {
   padding-block: 2rem 2.5rem;
 }
 
-.site-footer .mono {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-}
-
 /* ---------- Byggeklosser ---------- */
 
 .kicker {
