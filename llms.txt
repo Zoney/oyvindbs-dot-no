@@ -1,21 +1,13 @@
 # Øyvind Sandåker
 
-> KI-bygger, gründer og foredragsholder fra Agder. CAIO og medgründer i Day of Week, og medgründer og styreleder i den ideelle foreningen Homborsund AI. Gjør kunstig intelligens forståelig og konkret, med løsninger han har bygget selv.
+> KI-bygger og gründer fra Agder. CAIO og medgründer i Day of Week, og medgründer og styreleder i den ideelle foreningen Homborsund AI. Gjør kunstig intelligens forståelig og konkret, med løsninger han har bygget selv.
 
 Eldre kilder bruker navnet Øyvind Brekkhus Sandåker.
 
 ## Sider
 
-- [Forside](https://oyvindbs.no/): hvem han er, scene, skriving og kontakt
-- [Foredrag og verksted](https://oyvindbs.no/foredrag/): fem foredrag, format, målgrupper, bio til programmet og booking
-
-## Foredrag
-
-- Ingen slides: KI, live
-- KI er en omstilling, ikke en reise (for ledergrupper og styrer)
-- KI fra jord til bord (for landbruk, mat og reiseliv)
-- Hva betyr det, egentlig? KI forklart for folk flest
-- KI-verksted: fra nysgjerrig til i gang (halv dag)
+- [Om meg](https://oyvindbs.no/): hvem han er, hva han gjør nå, scene og kontakt
+- [Skriving](https://oyvindbs.no/skriving/): artikler og notater, Day of Week-artiklene på norsk og engelsk
 
 ## Scene
 
@@ -36,6 +28,5 @@ Eldre kilder bruker navnet Øyvind Brekkhus Sandåker.
 
 ## Kontakt
 
-- E-post: oyvind@zoney.no
 - [LinkedIn](https://www.linkedin.com/in/%C3%B8yvind-brekkhus-sand%C3%A5ker-343a0a9/)
 - [Day of Week](https://dayofweek.com/) · [Homborsund AI](https://homborsundai.no/)

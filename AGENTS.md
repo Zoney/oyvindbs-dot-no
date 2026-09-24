@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Organization
-- Root `index.html`: home page. `foredrag/index.html`: speaker page.
+- Root `index.html`: about page. `skriving/index.html`: writing.
 - `articles/`: standalone HTML pages for posts (shared header and footer).
 - `style.css`: the single stylesheet. `img/`: images. See `CLAUDE.md` for design and content conventions.
 - Keep pages fast: no JS by default; prefer semantic HTML5.

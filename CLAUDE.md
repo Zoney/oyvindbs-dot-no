@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for Øyvind Sandåker (oyvindbs.no; older pages and sources use Øyvind Brekkhus Sandåker). Plain HTML and CSS: no framework, no build step, no JavaScript and no external fonts. The site presents him as an AI builder, co-founder and speaker: talks and workshops, where he has been on stage, writing, and contact.
+Personal website for Øyvind Sandåker (oyvindbs.no; older pages and sources use Øyvind Brekkhus Sandåker). Plain HTML and CSS: no framework, no build step, no JavaScript and no external fonts. The homepage is an about page (who he is, what he does now, where he has been on stage, contact) and writing has its own page.
 
 ## Development Commands
 
@@ -22,8 +22,8 @@ Vercel's Git integration deploys the repo as-is. A push to `main` is the product
 
 ## Structure
 
-- `index.html`: homepage (hero, status line, talks, stage, writing, about, contact)
-- `foredrag/index.html`: speaker page (five talks, format, stage, bio for programmes, booking)
+- `index.html`: about page (hero, status line, about + career, stage, contact)
+- `skriving/index.html`: writing (own articles, Day of Week posts in NO and EN, notes elsewhere)
 - `articles/`: the site's own articles
 - `homborsund/`: a public page that also uses `style.css`
 - `ean/`, `tekster/`: unlisted pages with their own inline styles; leave them alone unless asked
@@ -42,8 +42,10 @@ Vercel's Git integration deploys the repo as-is. A push to `main` is the product
 - Norwegian first (`lang="nb"`). English content keeps `lang="en"`. Day of Week articles are linked in both languages (NO and EN).
 - Credit correctly: Techpoint, Arendalsuka and Egderøre happened while he worked at Egde (2020–2026). Homborsund AI is a non-profit he runs on the side. Day of Week is the current job.
 - New copy avoids em-dash chains. Commas, colons and full stops instead.
-- The talk list appears on the homepage, on `foredrag/`, in `llms.txt` and in the JSON-LD on `foredrag/`. Keep them in sync.
-- Adding or removing a public page: update `sitemap.xml` and `llms.txt`.
+- No e-mail address on the site (it only attracts spam). Contact goes through LinkedIn, X and GitHub.
+- The status line under the hero shows what he does now and on the side. Egde is not listed there; it stays in the career list and the stage credits.
+- A speaker version with a talks page exists on the branch `redesign/foredrag`, parked until the speaker profile is ready.
+- Adding or removing a public page or article: update `skriving/index.html`, `sitemap.xml` and `llms.txt`.
 
 ## Technical Conventions
 
