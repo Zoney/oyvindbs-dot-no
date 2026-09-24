@@ -1,0 +1,41 @@
+# Øyvind Sandåker
+
+> KI-bygger, gründer og foredragsholder fra Agder. CAIO og medgründer i Day of Week, og medgründer og styreleder i den ideelle foreningen Homborsund AI. Gjør kunstig intelligens forståelig og konkret, med løsninger han har bygget selv.
+
+Eldre kilder bruker navnet Øyvind Brekkhus Sandåker.
+
+## Sider
+
+- [Forside](https://oyvindbs.no/): hvem han er, scene, skriving og kontakt
+- [Foredrag og verksted](https://oyvindbs.no/foredrag/): fem foredrag, format, målgrupper, bio til programmet og booking
+
+## Foredrag
+
+- Ingen slides: KI, live
+- KI er en omstilling, ikke en reise (for ledergrupper og styrer)
+- KI fra jord til bord (for landbruk, mat og reiseliv)
+- Hva betyr det, egentlig? KI forklart for folk flest
+- KI-verksted: fra nysgjerrig til i gang (halv dag)
+
+## Scene
+
+- Techpoint, Kristiansand, 2024 og 2025: to foredrag om KI-arbeidet i Gard, sammen med Gard. Som rådgiver i Egde.
+- Arendalsuka 2023: panelist i GRID-Arendals debatt «AI to Address Climate Change, Biodiversity Loss, and Pollution», for Egde.
+- Arendalsuka 2022 og 2023: vert for Egderøres live-podkast på S/S Solrik, for Egde.
+- Egderøre (2021–2023): med på å starte Egdes podkast, 48 episoder.
+- Homborsund AI (2025–): medgründer, styreleder og fast konferansier. Ideell forening, ved siden av jobben.
+
+## Skriving
+
+- [Bring Your Own Claw – Hva er din OpenClaw-strategi?](https://dayofweek.com/no/blog/bring-your-own-claw) (Day of Week, 2026, også på engelsk)
+- [Fra Copilot til Autopilot: En morgentur som leverer programvare](https://dayofweek.com/no/blog/from-copilot-to-autopilot) (Day of Week, 2026, også på engelsk)
+- [Da programmering ble som å strikke](https://oyvindbs.no/articles/da-programmering-ble-som-a-strikke.html) (2026)
+- [Bestill programvare som takeaway](https://dayofweek.com/no/blog/delivery-first-development-agentic-era) (Day of Week, 2026, også på engelsk)
+- [De nye AI-dagene](https://dayofweek.com/no/blog/the-new-ai-days) (Day of Week, 2026, også på engelsk)
+- [DevOps – mer enn et buzzword? Del 1](https://oyvindbs.no/articles/devops-buzzword-part1.html) (2021)
+
+## Kontakt
+
+- E-post: oyvind@zoney.no
+- [LinkedIn](https://www.linkedin.com/in/%C3%B8yvind-brekkhus-sand%C3%A5ker-343a0a9/)
+- [Day of Week](https://dayofweek.com/) · [Homborsund AI](https://homborsundai.no/)

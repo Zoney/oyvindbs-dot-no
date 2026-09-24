@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DevOps – Mer enn et buzzword? En utviklers beretning. Del 1 | Øyvind Brekkhus Sandåker</title>
+    <title>DevOps – Mer enn et buzzword? En utviklers beretning. Del 1 · Øyvind Sandåker</title>
     <meta name="description" content="DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines. En utviklers perspektiv på DevOps-evolusjonen." />
-    <meta name="keywords" content="DevOps, CI/CD, software development, automation, deployment, operations, development, Norway, Norwegian, Øyvind Brekkhus Sandåker" />
-    <meta name="author" content="Øyvind Brekkhus Sandåker" />
+    <meta name="keywords" content="DevOps, CI/CD, software development, automation, deployment, operations, development, Norway, Norwegian, Øyvind Sandåker" />
+    <meta name="author" content="Øyvind Sandåker" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Norwegian" />
     <meta name="revisit-after" content="7 days" />
@@ -16,10 +16,10 @@
     <meta property="og:url" content="https://oyvindbs.no/articles/devops-buzzword-part1.html" />
     <meta property="og:title" content="DevOps – Mer enn et buzzword? En utviklers beretning. Del 1" />
     <meta property="og:description" content="DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines." />
-    <meta property="og:site_name" content="Øyvind Brekkhus Sandåker" />
+    <meta property="og:site_name" content="Øyvind Sandåker" />
     <meta property="og:locale" content="nb_NO" />
     <meta property="article:published_time" content="2021-02-14T00:00:00+01:00" />
-    <meta property="article:author" content="Øyvind Brekkhus Sandåker" />
+    <meta property="article:author" content="Øyvind Sandåker" />
     <meta property="article:section" content="Technology" />
     <meta property="article:tag" content="DevOps, CI/CD, Software Development, Automation" />
     
@@ -32,8 +32,8 @@
     <meta name="twitter:image:alt" content="DevOps - Mer enn et buzzword? En utviklers beretning" />
     
     <!-- Additional SEO -->
-    <meta name="theme-color" content="#000000" />
-    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#fbfbf9" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="canonical" href="https://oyvindbs.no/articles/devops-buzzword-part1.html" />
     
     <!-- Structured Data -->
@@ -43,16 +43,17 @@
       "@type": "Article",
       "headline": "DevOps – Mer enn et buzzword? En utviklers beretning. Del 1",
       "description": "DevOps er mer enn et buzzword. Les om hvordan DevOps har utviklet seg fra tradisjonelle drift-avdelinger til moderne automatisering og CI/CD-pipelines.",
-      "image": "https://oyvindbs.no/og-image-devops.jpg",
       "author": {
         "@type": "Person",
-        "name": "Øyvind Brekkhus Sandåker",
-        "url": "https://oyvindbs.no"
+        "@id": "https://oyvindbs.no/#person",
+        "name": "Øyvind Sandåker",
+        "url": "https://oyvindbs.no/"
       },
       "publisher": {
         "@type": "Person",
-        "name": "Øyvind Brekkhus Sandåker",
-        "url": "https://oyvindbs.no"
+        "@id": "https://oyvindbs.no/#person",
+        "name": "Øyvind Sandåker",
+        "url": "https://oyvindbs.no/"
       },
       "datePublished": "2021-02-14T00:00:00+01:00",
       "dateModified": "2021-02-14T00:00:00+01:00",
@@ -69,40 +70,39 @@
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../index.html">home</a> / 
-      <span aria-current="page">devops buzzword part 1</span>
-    </nav>
-    
-    <div class="article-container">
-      <div class="article-layout">
-        <div class="article-sidebar">
-          <div class="article-sidebar-name">Øyvind</div>
-          <div class="article-sidebar-links">
-            <a href="../index.html">Home</a>
-            <a href="https://x.com/zoney" rel="me">@zoney on X</a>
-            <a href="https://www.linkedin.com/in/øyvind-brekkhus-sandåker-343a0a9/" rel="me">LinkedIn</a>
-          </div>
-          <div class="article-sidebar-info">
-            <p style="margin-top: 1.5em;"><i>I'm a software engineer and AI addict.</i></p>
-            <p style="margin-top: 1.5em;">-Øyvind Brekkhus Sandåker</p>
-          </div>
-        </div>
-        
-        <div class="article-content">
-          <div class="article-header">
-            <h1 class="article-title">DevOps – mer enn et buzzword? En utviklers beretning. Del 1</h1>
-            <p class="article-meta">14 Feb 2021</p>
-            <div class="article-tags">
-              <span class="tag">DevOps</span>
-              <span class="tag">CI/CD</span>
-              <span class="tag">Software Development</span>
-              <span class="tag">Automation</span>
-              <span class="tag">Deployment</span>
-            </div>
-          </div>
+    <a class="skip" href="#innhold">Hopp til innholdet</a>
 
-          <div class="article-body">
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="../"><span class="brand-prompt" aria-hidden="true">&gt;_</span>Øyvind Sandåker</a>
+        <nav class="site-nav" aria-label="Hovedmeny">
+          <ul>
+            <li><a href="../foredrag/">Foredrag</a></li>
+            <li><a href="../#scene">Scene</a></li>
+            <li><a href="../#skriving">Skriving</a></li>
+            <li><a href="../#om">Om</a></li>
+            <li><a href="../#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="innhold" class="wrap article-page">
+      <nav class="crumbs" aria-label="Brødsmuler"><a href="../">Forside</a> / <a href="../#skriving">Skriving</a></nav>
+      <article>
+        <header class="article-header">
+          <p class="article-meta"><time datetime="2021-02-14">14. februar 2021</time> · Øyvind Sandåker</p>
+          <h1 class="article-title">DevOps – mer enn et buzzword? En utviklers beretning. Del 1</h1>
+          <div class="article-tags">
+            <span class="tag">DevOps</span>
+            <span class="tag">CI/CD</span>
+            <span class="tag">Software Development</span>
+            <span class="tag">Automation</span>
+            <span class="tag">Deployment</span>
+          </div>
+        </header>
+
+        <div class="article-body">
             <div class="article-summary">
               <p><strong>Oppsummering:</strong> DevOps er et ord som i den senere tid har poppet opp i IT-verdenen. Det er lett å miste tråden når man snakker om DevOps, for det er brukt i forferdelig mange sammenhenger. Man hører DevOps som en stilling, mange søker etter "DevOps Engineer", det er et produkt hos noen selskaper (bl.a Azure DevOps), noen tenker på det som en kultur man har i selskapet, mens blant annet wikipedia kategoriserer det som et sett med utviklingsmetoder.</p>
             </div>
@@ -155,14 +155,25 @@
                 </ul>
               </div>
               
+              <div class="author-note">
+                <p>Jeg heter Øyvind Sandåker, og jeg gjør kunstig intelligens forståelig og konkret. Jeg er CAIO og medgründer i Day of Week, og holder foredrag og verksted om KI i praksis.</p>
+                <p><a href="../foredrag/">Se foredragene</a> <span aria-hidden="true">→</span></p>
+              </div>
+
               <div class="article-navigation">
                 <p><strong>Del av serien:</strong> DevOps – mer enn et buzzword?</p>
-                <p>← <a href="../index.html">Tilbake til forsiden</a></p>
+                <p>← <a href="../">Tilbake til forsiden</a></p>
               </div>
             </div>
-          </div>
         </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Føl deg fri til å kopiere – gøy om du gir beskjed om det brukes til noe.</p>
+        <p class="mono">Laget i ren HTML og CSS.</p>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

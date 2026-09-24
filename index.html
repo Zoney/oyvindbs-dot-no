@@ -1,137 +1,345 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Øyvind Brekkhus Sandåker -- Software Engineer & AI Addict</title>
-    <meta name="description" content="Home of Øyvind Brekkhus Sandåker -- software engineer & AI addict. Notes on building with AI, tiny tools, and shipping software." />
-    <meta name="keywords" content="Øyvind Brekkhus Sandåker, software engineer, AI addict, DevOps, software development, technology, Norway, Norwegian developer" />
-    <meta name="author" content="Øyvind Brekkhus Sandåker" />
+    <title>Øyvind Sandåker · KI-bygger, gründer og foredragsholder</title>
+    <meta name="description" content="Jeg gjør kunstig intelligens forståelig og konkret. Foredrag og verksted om KI i praksis, fra en som bygger det selv. CAIO og medgründer i Day of Week." />
+    <meta name="author" content="Øyvind Sandåker" />
     <meta name="robots" content="index, follow" />
-    <meta name="language" content="English" />
-    <meta name="revisit-after" content="7 days" />
-    
+    <link rel="canonical" href="https://oyvindbs.no/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#fbfbf9" />
+
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://oyvindbs.no/" />
-    <meta property="og:title" content="Øyvind Brekkhus Sandåker -- Software Engineer & AI Addict" />
-    <meta property="og:description" content="Home of Øyvind Brekkhus Sandåker -- software engineer & AI addict. Notes on building with AI, tiny tools, and shipping software." />
-    <meta property="og:site_name" content="Øyvind Brekkhus Sandåker" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:image:alt" content="Øyvind Brekkhus Sandåker - Software Engineer and AI Addict" />
-    
+    <meta property="og:title" content="Øyvind Sandåker · KI-bygger, gründer og foredragsholder" />
+    <meta property="og:description" content="Jeg gjør kunstig intelligens forståelig og konkret. Foredrag og verksted om KI i praksis, fra en som bygger det selv." />
+    <meta property="og:site_name" content="Øyvind Sandåker" />
+    <meta property="og:locale" content="nb_NO" />
+    <meta property="profile:first_name" content="Øyvind" />
+    <meta property="profile:last_name" content="Sandåker" />
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@zoney" />
     <meta name="twitter:creator" content="@zoney" />
-    <meta name="twitter:title" content="Øyvind Brekkhus Sandåker -- Software Engineer & AI Addict" />
-    <meta name="twitter:description" content="Home of Øyvind Brekkhus Sandåker -- software engineer & AI addict. Notes on building with AI, tiny tools, and shipping software." />
-    
-    <!-- Additional SEO -->
-    <meta name="theme-color" content="#000000" />
-    <meta name="msapplication-TileColor" content="#000000" />
-    <link rel="canonical" href="https://oyvindbs.no/" />
-    
+    <meta name="twitter:title" content="Øyvind Sandåker · KI-bygger, gründer og foredragsholder" />
+    <meta name="twitter:description" content="Jeg gjør kunstig intelligens forståelig og konkret. Foredrag og verksted om KI i praksis, fra en som bygger det selv." />
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Øyvind Brekkhus Sandåker",
-      "alternateName": "zoney",
-      "description": "Software engineer and AI addict",
-      "url": "https://oyvindbs.no",
-      "sameAs": [
-        "https://x.com/zoney",
-        "https://www.linkedin.com/in/øyind-brekkhus-sandåker-343a0a9/"
-      ],
-      "jobTitle": "Software Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Software Development"
-      },
-      "knowsAbout": ["AI", "DevOps", "Software Development", "TypeScript", "Python", "Kubernetes", "CI/CD"],
-      "nationality": "Norwegian"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://oyvindbs.no/#person",
+          "name": "Øyvind Sandåker",
+          "alternateName": ["Øyvind Brekkhus Sandåker", "zoney"],
+          "url": "https://oyvindbs.no/",
+          "image": "https://oyvindbs.no/img/oyvind-sandaker.jpg",
+          "description": "KI-bygger, gründer og foredragsholder. Gjør kunstig intelligens forståelig og konkret.",
+          "jobTitle": "CAIO og medgründer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Day of Week",
+            "url": "https://dayofweek.com/"
+          },
+          "memberOf": {
+            "@type": "NGO",
+            "name": "Homborsund AI",
+            "url": "https://homborsundai.no/"
+          },
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universitetet i Agder"
+          },
+          "knowsAbout": ["Kunstig intelligens", "KI i praksis", "AI-agenter", "Programvareutvikling", "DevOps", "Mat og landbruk"],
+          "knowsLanguage": ["nb", "en"],
+          "sameAs": [
+            "https://www.linkedin.com/in/%C3%B8yvind-brekkhus-sand%C3%A5ker-343a0a9/",
+            "https://x.com/zoney",
+            "https://github.com/Zoney"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://oyvindbs.no/#website",
+          "url": "https://oyvindbs.no/",
+          "name": "Øyvind Sandåker",
+          "inLanguage": "nb-NO",
+          "publisher": { "@id": "https://oyvindbs.no/#person" }
+        }
+      ]
     }
     </script>
-    
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <span aria-current="page">home</span>
-      <label for="about-toggle" class="about-link">about</label>
-    </nav>
-    
-    <!-- Hidden checkbox for CSS-only toggle -->
-    <input type="checkbox" id="about-toggle" class="about-checkbox">
-    
-    <!-- Profile overlay that shows when about is clicked -->
-    <div class="profile-overlay">
-      <div class="profile-overlay-content">
-        <label for="about-toggle" class="close-overlay">&times;</label>
-        <div class="overlay-profile">
-          <div class="overlay-profile-name">Øyvind</div>
-          <div class="overlay-profile-links">
-            <a href="https://x.com/zoney" rel="me">@zoney on X</a>
-            <a href="https://www.linkedin.com/in/øyvind-brekkhus-sandåker-343a0a9/" rel="me">LinkedIn</a>
-          </div>
-          <div class="overlay-profile-info">
-            <p><i>I'm a software engineer and AI addict.</i></p>
-            <p>-Øyvind Brekkhus Sandåker</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container">
-      <div class="layout">
-        <div class="profile-box">
-          <div class="profile-name">Øyvind</div>
-          <div class="profile-links">
-            <a href="https://x.com/zoney" rel="me">@zoney on X</a>
-            <a href="https://www.linkedin.com/in/øyvind-brekkhus-sandåker-343a0a9/" rel="me">LinkedIn</a>
-          </div>
-          <div class="profile-info">
-            <p style="margin-top: 1.5em;"><i>I'm a software engineer and AI addict.</i></p>
-            <p style="margin-top: 1.5em;">-Øyvind Brekkhus Sandåker</p>
-          </div>
-        </div>
-        
-        <div class="main-content">
+    <a class="skip" href="#innhold">Hopp til innholdet</a>
 
-          <div class="content-section">
-            <h2 class="content-heading">Da programmering ble som å strikke</h2>
-            <p class="content-text">Et vitnesbyrd fra 28. februar 2026 om hvordan programmering har blitt som å strikke. Om mormors strikkemaskin, om å skrive 50 000 linjer kode på tre dager, og om hva utvikleryrket egentlig er nå.</p>
-            <p class="content-text">Les her: <a href="articles/da-programmering-ble-som-a-strikke.html">https://oyvindbs.no/articles/da-programmering-ble-som-a-strikke.html</a></p>
-          </div>
-
-          <div class="content-section">
-            <h2 class="content-heading">Claude Code vs Codex: Agentic Coding Gets Real</h2>
-            <p class="content-text">Agentic coding is no longer a demo—it's landing in real workflows. Tools like Anthropic's Claude Code and OpenAI's Codex CLI are racing to make "work with my codebase" a first-class capability: grounded conversations on repos, structured planning, and iterative execution with safety rails.</p>
-            <p class="content-text">Read this here: <a href="https://homborsundai.no/notes/coding-agents-2025" target="_blank" rel="noopener noreferrer">https://homborsundai.no/notes/coding-agents-2025</a></p>
-          </div>
-          
-          <div class="content-section">
-            <h2 class="content-heading">Øyvinds utømmelig liste over inspirasjonskilder</h2>
-            <p class="content-text">Etter å ha jobbet noen år med tech har jeg vært innom mange måter å lære ting på. Her er noen av måtene jeg har lært ymse greier.</p>
-            <p class="content-text">Read this here: <a href="articles/where-i-learn.html">https://oyvindbs.no/articles/where-i-learn.html</a></p>
-          </div>
-          
-          <div class="content-section">
-            <h2 class="content-heading">DevOps – mer enn et buzzword? En utviklers beretning. Del 1</h2>
-            <p class="content-text">DevOps er et ord som i den senere tid har poppet opp i IT-verdenen. Det er lett å miste tråden når man snakker om DevOps, for det er brukt i forferdelig mange sammenhenger. Man hører DevOps som en stilling, mange søker etter "DevOps Engineer", det er et produkt hos noen selskaper (bl.a Azure DevOps), noen tenker på det som en kultur man har i selskapet, mens blant annet wikipedia kategoriserer det som et sett med utviklingsmetoder.</p>
-            <p class="content-text">Read this here: <a href="articles/devops-buzzword-part1.html">https://oyvindbs.no/articles/devops-buzzword-part1.html</a></p>
-          </div>
-        </div>
-        
-        <footer class="site-footer">
-          <div class="footer-bottom">
-            <p >Føl deg fri til å kopiere – gøy om du gir beskjed om det brukes til noe</p>
-          </div>
-        </footer>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="./" aria-current="page"><span class="brand-prompt" aria-hidden="true">&gt;_</span>Øyvind Sandåker</a>
+        <nav class="site-nav" aria-label="Hovedmeny">
+          <ul>
+            <li><a href="foredrag/">Foredrag</a></li>
+            <li><a href="#scene">Scene</a></li>
+            <li><a href="#skriving">Skriving</a></li>
+            <li><a href="#om">Om</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
+
+    <main id="innhold">
+      <section class="hero" aria-labelledby="hero-tittel">
+        <div class="wrap hero-grid">
+          <div class="hero-text">
+            <p class="kicker"><span class="prompt">$</span> whoami</p>
+            <h1 id="hero-tittel">Øyvind Sandåker<span class="caret" aria-hidden="true"></span></h1>
+            <p class="role">KI-bygger · gründer · foredragsholder</p>
+            <p class="lead">Jeg gjør kunstig intelligens forståelig og konkret. Folk skal gå ut av salen og vite hva de kan prøve på mandag, ikke sitte igjen forvirret eller skremt.</p>
+            <div class="button-row">
+              <a class="button" href="foredrag/">Se foredragene</a>
+              <a class="button button-ghost" href="#kontakt">Ta kontakt</a>
+            </div>
+            <p class="hero-en" lang="en">I build AI that does real work, and explain it so people get it. CAIO and co-founder of Day of Week, chair of the non-profit Homborsund AI.</p>
+          </div>
+          <figure class="portrait">
+            <img src="img/oyvind-sandaker.jpg" width="560" height="840" alt="Øyvind Sandåker smiler mot kamera. Svart-hvitt portrett." fetchpriority="high" />
+            <figcaption>Foto: Yngvill Salvesen</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="status-band" aria-label="Kort fortalt">
+        <ul class="status">
+          <li>
+            <span class="status-key">nå</span>
+            <span class="status-value"><a href="https://dayofweek.com/no">Day of Week</a></span>
+            <span class="status-note">CAIO og medgründer</span>
+          </li>
+          <li>
+            <span class="status-key">ved siden av</span>
+            <span class="status-value"><a href="https://homborsundai.no/">Homborsund AI</a></span>
+            <span class="status-note">Medgründer og styreleder i en ideell forening</span>
+          </li>
+          <li>
+            <span class="status-key">før</span>
+            <span class="status-value"><a href="https://egde.no/">Egde</a></span>
+            <span class="status-note">Rådgiver og teknologileder, 2020–2026</span>
+          </li>
+        </ul>
+      </section>
+
+      <div class="wrap">
+        <section class="section" id="foredrag" aria-labelledby="foredrag-tittel">
+          <div class="section-head">
+            <p class="kicker">// foredrag</p>
+            <h2 id="foredrag-tittel">Foredrag og verksted</h2>
+            <p>Jeg er ikke forsker. Jeg er en som bygger. Jeg viser løsninger jeg har laget selv og som er i bruk, og jeg forteller ærlig hva som virket og hva som ikke gjorde det.</p>
+          </div>
+          <ol class="rows">
+            <li class="talk-row">
+              <a href="foredrag/#ingen-slides">
+                <span class="num" aria-hidden="true">01</span>
+                <span class="title">Ingen slides: KI, live</span>
+                <span class="desc">Jeg bygger noe på scenen, med oppgaver publikum roper inn.</span>
+                <span class="meta"><span class="tag">foredrag</span></span>
+              </a>
+            </li>
+            <li class="talk-row">
+              <a href="foredrag/#omstilling">
+                <span class="num" aria-hidden="true">02</span>
+                <span class="title">KI er en omstilling, ikke en reise</span>
+                <span class="desc">For ledergrupper og styrer: hvorfor så mange KI-satsinger stopper etter piloten.</span>
+                <span class="meta"><span class="tag">foredrag</span></span>
+              </a>
+            </li>
+            <li class="talk-row">
+              <a href="foredrag/#jord-til-bord">
+                <span class="num" aria-hidden="true">03</span>
+                <span class="title">KI fra jord til bord</span>
+                <span class="desc">Hva en liten gründerbedrift i Agder har lært om KI i den virkelige økonomien.</span>
+                <span class="meta"><span class="tag">foredrag</span></span>
+              </a>
+            </li>
+            <li class="talk-row">
+              <a href="foredrag/#hva-betyr-det">
+                <span class="num" aria-hidden="true">04</span>
+                <span class="title">Hva betyr det, egentlig? KI forklart for folk flest</span>
+                <span class="desc">Uten fagord og uten skremselsbilder, for alle i salen.</span>
+                <span class="meta"><span class="tag">foredrag</span></span>
+              </a>
+            </li>
+            <li class="talk-row">
+              <a href="foredrag/#verksted">
+                <span class="num" aria-hidden="true">05</span>
+                <span class="title">KI-verksted: fra nysgjerrig til i gang</span>
+                <span class="desc">Deltakerne jobber med egne oppgaver og går hjem med noe de har laget selv.</span>
+                <span class="meta"><span class="tag">verksted · halv dag</span></span>
+              </a>
+            </li>
+          </ol>
+          <p class="more"><a href="foredrag/">Beskrivelser, format og booking</a> <span aria-hidden="true">→</span></p>
+        </section>
+
+        <section class="section" id="scene" aria-labelledby="scene-tittel">
+          <div class="split">
+            <div class="split-aside">
+              <div class="section-head">
+                <p class="kicker">// scene</p>
+                <h2 id="scene-tittel">Her har jeg stått på scenen</h2>
+              </div>
+              <p class="credit-note">Techpoint, Arendalsuka og Egderøre gjorde jeg mens jeg jobbet i <a href="https://egde.no/">Egde</a> (2020–2026). <a href="https://homborsundai.no/">Homborsund AI</a> er en ideell forening jeg driver ved siden av jobben.</p>
+            </div>
+            <ul class="timeline">
+              <li>
+                <p class="when">2025–</p>
+                <h3>Homborsund AI <span class="where">Krømpe ved Grimstad</span></h3>
+                <p>Medgründer, styreleder og fast konferansier på samlingene, som holdes i en gammel skole uten strøm. Lørdag 3. oktober 2026 holder jeg <span lang="en">«No Slides. A Second Brain, Live.»</span>: en talemelding tas opp på scenen, havner i wikien, og så svarer wikien på spørsmål fra salen.</p>
+                <p class="credit">Homborsund AI, ideell forening ved siden av jobben</p>
+                <p class="links"><a class="ext" href="https://homborsundai.no/summit/2026.2">Programmet for Summit 2026.2</a></p>
+              </li>
+              <li>
+                <p class="when">2024 og 2025</p>
+                <h3>Techpoint <span class="where">Kristiansand</span></h3>
+                <p>To foredrag om KI-arbeidet i skipsforsikringsselskapet Gard, begge gangene sammen med Gard.</p>
+                <p class="credit">Som rådgiver i Egde, på oppdrag for Gard</p>
+                <p class="links">
+                  <a class="ext" href="https://www.facebook.com/GardGroup/videos/gard-and-egde-at-techpoint-2024last-week-gard-and-egde-came-together-at-techpoin/3419039728397159/">Gard og Egde på Techpoint 2024 (video)</a>
+                  <a class="ext" href="https://techpointconference.no/">techpointconference.no</a>
+                </p>
+              </li>
+              <li>
+                <p class="when">2022 og 2023</p>
+                <h3>Arendalsuka <span class="where">Arendal</span></h3>
+                <p>I 2023 satt jeg i panelet i GRID-Arendals debatt <span lang="en">«AI to Address Climate Change, Biodiversity Loss, and Pollution»</span>. Jeg representerte privat sektor og fortalte om arbeidet med GRID-Arendal på verktøy til FNs miljørapport GEO-7. Begge årene var jeg også vert for Egderøres live-podkast foran publikum om bord på skonnerten S/S Solrik.</p>
+                <p class="credit">For Egde</p>
+                <p class="links">
+                  <a class="ext" href="https://news.grida.no/arendalsuka-2023">GRID-Arendal på Arendalsuka 2023</a>
+                  <a class="ext" href="https://open.spotify.com/show/6bBaPWcjTfJtGOjdM0uGhL">Live-episodene på Spotify</a>
+                </p>
+              </li>
+              <li>
+                <p class="when">2021–2023</p>
+                <h3>Egderøre <span class="where">podkast</span></h3>
+                <p>Med på å starte Egdes podkast sammen med Andreas Taraldsen og Magnus Finnset. Det ble 48 episoder om KI, sikkerhet, utvikling og livet som konsulent.</p>
+                <p class="credit">Egdes podkast</p>
+                <p class="links"><a class="ext" href="https://open.spotify.com/show/6bBaPWcjTfJtGOjdM0uGhL">Hør Egderøre på Spotify</a></p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="skriving" aria-labelledby="skriving-tittel">
+          <div class="section-head">
+            <p class="kicker">// skriving</p>
+            <h2 id="skriving-tittel">Skriving</h2>
+            <p>Mest om KI i praksis, agenter og hvordan det er å lage programvare nå. Artiklene på Day of Week-bloggen finnes både på norsk og engelsk.</p>
+          </div>
+          <ul class="rows">
+            <li class="post">
+              <time datetime="2026-03-23">2026-03-23</time>
+              <p class="post-title"><a href="https://dayofweek.com/no/blog/bring-your-own-claw">Bring Your Own Claw – Hva er din OpenClaw-strategi?</a></p>
+              <p class="desc">Folk kommer til å kjøre sin egen OpenClaw lokalt. Bedrifter står overfor et reelt valg: tillate det, eller ikke?</p>
+              <p class="langs"><span class="source">Day of Week</span> <a class="lang-link" href="https://dayofweek.com/no/blog/bring-your-own-claw" hreflang="nb" aria-label="Les på norsk">NO</a> <a class="lang-link" href="https://dayofweek.com/en/blog/bring-your-own-claw" hreflang="en" lang="en" aria-label="Read in English: Bring Your Own Claw, What’s Your OpenClaw Strategy?">EN</a></p>
+            </li>
+            <li class="post">
+              <time datetime="2026-03-08">2026-03-08</time>
+              <p class="post-title"><a href="https://dayofweek.com/no/blog/from-copilot-to-autopilot">Fra Copilot til Autopilot: En morgentur som leverer programvare</a></p>
+              <p class="desc">Hvordan et talenotat fra en morgentur ble en ferdig funksjon før lunsj.</p>
+              <p class="langs"><span class="source">Day of Week</span> <a class="lang-link" href="https://dayofweek.com/no/blog/from-copilot-to-autopilot" hreflang="nb" aria-label="Les på norsk">NO</a> <a class="lang-link" href="https://dayofweek.com/en/blog/from-copilot-to-autopilot" hreflang="en" lang="en" aria-label="Read in English: From Copilot to Autopilot, A Morning Commute That Ships Software">EN</a></p>
+            </li>
+            <li class="post">
+              <time datetime="2026-02-28">2026-02-28</time>
+              <p class="post-title"><a href="articles/da-programmering-ble-som-a-strikke.html">Da programmering ble som å strikke</a></p>
+              <p class="desc">Om mormors strikkemaskin, 50 000 linjer kode på tre dager og hva utvikleryrket egentlig er nå.</p>
+              <p class="langs"><span class="source">oyvindbs.no</span> <span class="tag">NO</span></p>
+            </li>
+            <li class="post">
+              <time datetime="2026-02-24">2026-02-24</time>
+              <p class="post-title"><a href="https://dayofweek.com/no/blog/delivery-first-development-agentic-era">Bestill programvare som takeaway: Leveringsdrevet utvikling i agentenes tidsalder</a></p>
+              <p class="desc">Fungerende programvare er det eneste målet på fremdrift. Spørsmålet er ikke hvilket rammeverk, men hvilket resultat.</p>
+              <p class="langs"><span class="source">Day of Week</span> <a class="lang-link" href="https://dayofweek.com/no/blog/delivery-first-development-agentic-era" hreflang="nb" aria-label="Les på norsk">NO</a> <a class="lang-link" href="https://dayofweek.com/en/blog/delivery-first-development-agentic-era" hreflang="en" lang="en" aria-label="Read in English: Order Software Like Takeaway, Delivery-First Development for the Agentic Era">EN</a></p>
+            </li>
+            <li class="post">
+              <time datetime="2026-02-11">2026-02-11</time>
+              <p class="post-title"><a href="https://dayofweek.com/no/blog/the-new-ai-days">De nye AI-dagene: leverer mer på en uke enn de fleste gjør på en måned</a></p>
+              <p class="desc">KI er et nytt operativsystem for arbeid. De som tar det i bruk nå, bygger et forsprang som blir vanskelig å ta igjen.</p>
+              <p class="langs"><span class="source">Day of Week</span> <a class="lang-link" href="https://dayofweek.com/no/blog/the-new-ai-days" hreflang="nb" aria-label="Les på norsk">NO</a> <a class="lang-link" href="https://dayofweek.com/en/blog/the-new-ai-days" hreflang="en" lang="en" aria-label="Read in English: The new AI days, delivering more in a week than most ship in a month">EN</a></p>
+            </li>
+            <li class="post" lang="en">
+              <time datetime="2025-06-15">2025-06-15</time>
+              <p class="post-title"><a href="https://homborsundai.no/notes/coding-agents-2025">Claude Code vs Codex: Agentic Coding Gets Real</a></p>
+              <p class="desc">Agentic coding is no longer a demo. Notes on Claude Code, Codex CLI and moving fast without losing type safety.</p>
+              <p class="langs"><span class="source">Homborsund AI</span> <span class="tag">EN</span></p>
+            </li>
+            <li class="post">
+              <time datetime="2021-02-14">2021-02-14</time>
+              <p class="post-title"><a href="articles/devops-buzzword-part1.html">DevOps – mer enn et buzzword? En utviklers beretning. Del 1</a></p>
+              <p class="desc">Fra driftsavdelinger og serverrom til automatiserte pipelines, fortalt av en utvikler.</p>
+              <p class="langs"><span class="source">oyvindbs.no</span> <span class="tag">NO</span></p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="om" aria-labelledby="om-tittel">
+          <div class="about-grid">
+            <div>
+              <div class="section-head">
+                <p class="kicker">// om</p>
+                <h2 id="om-tittel">Om meg</h2>
+              </div>
+              <div class="prose">
+                <p>Jeg har laget programvare i snart 20 år, fra telekom og sportsanalyse til rådgivning for offentlig sektor, helse, forsikring og luftfart. De siste årene har jeg jobbet med KI i praksis. I dag er jeg CAIO og medgründer i <a href="https://dayofweek.com/no">Day of Week</a>, et selskap i Agder som bruker KI til å koble lokale matprodusenter med hoteller og restauranter.</p>
+                <p>Ved siden av jobben er jeg styreleder i <a href="https://homborsundai.no/">Homborsund AI</a>, en ideell forening som samler folk til KI-kvelder i en gammel skole uten strøm. Der bruker vi tavle og kritt i stedet for prosjektor, og de som aldri har prøvd KI er like velkomne som de som bruker det hver dag.</p>
+                <p>Jeg holder til i Grimstad.</p>
+              </div>
+            </div>
+            <div>
+              <p class="kicker"><span class="prompt">$</span> git log --oneline karriere</p>
+              <ul class="cv">
+                <li><span class="years">2026–</span><span><span class="org">Day of Week</span><span class="what">CAIO og medgründer</span></span></li>
+                <li><span class="years">2025–</span><span><span class="org">Homborsund AI</span><span class="what">Medgründer og styreleder, ideell forening</span></span></li>
+                <li><span class="years">2020–2026</span><span><span class="org">Egde</span><span class="what">Rådgiver, seniorrådgiver og teknologileder i Smia</span></span></li>
+                <li><span class="years">2017–2020</span><span><span class="org">Gaming Innovation Group</span><span class="what">Director of Software Development Norway</span></span></li>
+                <li><span class="years">2015–2017</span><span><span class="org">OddsModel</span><span class="what">CTO, til selskapet ble kjøpt av GiG</span></span></li>
+                <li><span class="years">2007–2014</span><span><span class="org">Ventelo</span><span class="what">Utvikler</span></span></li>
+                <li><span class="years">2005–2008</span><span><span class="org">Universitetet i Agder</span><span class="what">Bachelor i IT og informasjonssystemer</span></span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="kontakt" aria-labelledby="kontakt-tittel">
+          <div class="section-head">
+            <p class="kicker">// kontakt</p>
+            <h2 id="kontakt-tittel">Kontakt</h2>
+          </div>
+          <div class="contact-box">
+            <p>Vil du booke et foredrag, et verksted eller en konferansier? Send en e-post med dato, sted, publikum og hva dere vil oppnå.</p>
+            <p class="contact-mail"><a href="mailto:oyvind@zoney.no">oyvind@zoney.no</a></p>
+            <ul class="social">
+              <li><a class="ext" href="https://www.linkedin.com/in/%C3%B8yvind-brekkhus-sand%C3%A5ker-343a0a9/" rel="me">LinkedIn</a></li>
+              <li><a class="ext" href="https://x.com/zoney" rel="me">X @zoney</a></li>
+              <li><a class="ext" href="https://github.com/Zoney" rel="me">GitHub</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Føl deg fri til å kopiere – gøy om du gir beskjed om det brukes til noe.</p>
+        <p class="mono">Laget i ren HTML og CSS.</p>
+      </div>
+    </footer>
   </body>
 </html>
-
