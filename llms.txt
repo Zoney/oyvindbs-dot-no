@@ -6,8 +6,8 @@ Eldre kilder bruker navnet Øyvind Brekkhus Sandåker.
 
 ## Sider
 
-- [Om meg](https://oyvindbs.no/): hvem han er, hva han gjør nå, scene og kontakt
-- [Skriving](https://oyvindbs.no/skriving/): artikler og notater, Day of Week-artiklene på norsk og engelsk
+- [Om meg](https://zoney.no/): hvem han er, hva han gjør nå, scene og kontakt
+- [Skriving](https://zoney.no/skriving/): artikler og notater, Day of Week-artiklene på norsk og engelsk
 
 ## Scene
 
@@ -21,10 +21,10 @@ Eldre kilder bruker navnet Øyvind Brekkhus Sandåker.
 
 - [Bring Your Own Claw – Hva er din OpenClaw-strategi?](https://dayofweek.com/no/blog/bring-your-own-claw) (Day of Week, 2026, også på engelsk)
 - [Fra Copilot til Autopilot: En morgentur som leverer programvare](https://dayofweek.com/no/blog/from-copilot-to-autopilot) (Day of Week, 2026, også på engelsk)
-- [Da programmering ble som å strikke](https://oyvindbs.no/articles/da-programmering-ble-som-a-strikke.html) (2026)
+- [Da programmering ble som å strikke](https://zoney.no/articles/da-programmering-ble-som-a-strikke.html) (2026)
 - [Bestill programvare som takeaway](https://dayofweek.com/no/blog/delivery-first-development-agentic-era) (Day of Week, 2026, også på engelsk)
 - [De nye AI-dagene](https://dayofweek.com/no/blog/the-new-ai-days) (Day of Week, 2026, også på engelsk)
-- [DevOps – mer enn et buzzword? Del 1](https://oyvindbs.no/articles/devops-buzzword-part1.html) (2021)
+- [DevOps – mer enn et buzzword? Del 1](https://zoney.no/articles/devops-buzzword-part1.html) (2021)
 
 ## Kontakt
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal website for Øyvind Sandåker (oyvindbs.no; older pages and sources use Øyvind Brekkhus Sandåker). Plain HTML and CSS: no framework, no build step, no JavaScript and no external fonts. The homepage is an about page (who he is, what he does now, where he has been on stage, contact) and writing has its own page.
+Personal website for Øyvind Sandåker (zoney.no, formerly oyvindbs.no; older pages and sources use Øyvind Brekkhus Sandåker). Plain HTML and CSS: no framework, no build step, no JavaScript and no external fonts. The homepage is an about page (who he is, what he does now, where he has been on stage, contact) and writing has its own page.
 
 ## Development Commands
 
@@ -53,4 +53,4 @@ Vercel's Git integration deploys the repo as-is. A push to `main` is the product
 - HTML: 2-space indentation, semantic elements (`<main>`, `<article>`, `<section>`, `<nav>`, `<time>`)
 - CSS: rem units, grid, section comments
 - File naming: kebab-case
-- SEO: meta description, Open Graph, Twitter card (text-only previews), JSON-LD (`Person` with `@id` `https://oyvindbs.no/#person` on the homepage; other pages refer to it)
+- SEO: meta description, Open Graph, Twitter card (text-only previews), JSON-LD (`Person` with `@id` `https://zoney.no/#person` on the homepage; other pages refer to it)
