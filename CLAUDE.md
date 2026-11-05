@@ -14,11 +14,11 @@ python3 -m http.server 8000
 # Then visit http://localhost:8000
 ```
 
-`404.html` uses root-absolute paths and is served by Vercel for missing pages; the Python server does not use it, so open `/404.html` directly to check it.
+`404.html` uses root-absolute paths and is served for missing pages; the Python server does not use it, so open `/404.html` directly to check it.
 
 ### Deploy
 
-Vercel's Git integration deploys the repo as-is. A push to `main` is the production deploy; every other branch gets a preview deployment. Do not run `vercel --prod`.
+zoney.no is served as a static site from the files git tracks on `main`. A push alone does not publish: after pushing, run the deploy for the `zoney` app (see the operator's runbook). Do not run `vercel --prod`.
 
 ## Structure
 

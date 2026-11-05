@@ -8,7 +8,7 @@
 
 ## Develop & Preview
 - Serve locally: `python3 -m http.server 8000`, then visit `http://localhost:8000`.
-- A pushed branch gets a Vercel preview deployment; a push to `main` deploys to production.
+- Production is the files on `main`, published by a separate deploy step after the push.
 
 ## Coding Style & Naming
 - HTML: 2-space indentation, 80–100 char soft wrap, valid HTML5.
